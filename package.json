@@ -1,11 +1,12 @@
 {
-  "name": "szurubooru-api",
+  "name": "subscribestar-notifier",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "prepare": "husky install",
-    "dev": "ts-node src/app.ts"
+    "dev": "ts-node src/app.ts",
+    "start": "node dist/app.js"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -23,5 +24,9 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "puppeteer": "^21.3.5"
   }
 }

@@ -1,0 +1,4 @@
+services:
+  notifier:
+    build: .
+    restart: unless-stopped

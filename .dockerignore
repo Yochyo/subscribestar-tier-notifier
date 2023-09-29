@@ -1,0 +1,6 @@
+.cache
+.husky
+.idea
+dist
+node_modules
+puppeteer.config.cjs
