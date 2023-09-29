@@ -17,8 +17,8 @@ void (async () => {
   while (true) {
     const page = await browser.newPage();
     await page.setViewport({ width: 1080, height: 1024 });
-    await page.goto(process.env.url!);
-    console.log(`[${new Date()}]: open page ${process.env.url!}`);
+    await page.goto(process.env.URL!);
+    console.log(`[${new Date()}]: open page ${process.env.URL!}`);
 
     const tiers = await Promise.all((await page.$$('.tier')).map(tier => Tier(tier)));
     console.log('tiers', JSON.stringify(tiers));
