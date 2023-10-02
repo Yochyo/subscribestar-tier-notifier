@@ -5,7 +5,7 @@ to get notified in another way than by email, just modify the `notify()` method.
 
 ## Preparation
 ### SMTP2Go
-First of all, create a free account at (smtp2go.com)[smtp2go.com]. Then, create an api key at (https://app.smtp2go.com/sending/apikeys/)[https://app.smtp2go.com/sending/apikeys/].
+First of all, create a free account at [smtp2go.com](smtp2go.com). Then, create an api key at [https://app.smtp2go.com/sending/apikeys/](https://app.smtp2go.com/sending/apikeys/).
 
 ### environment variables
 Rename the `.env.template` file to `.env`. And follow the instructions in it.
